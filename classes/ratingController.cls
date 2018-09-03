@@ -9,6 +9,7 @@ public class ratingController {
         rt.Rating__c = Double.valueOf(numRating);
         rt.User__c = UserInfo.getUserId();
         insert rt;
+        //new comments
         return;
     }
     
